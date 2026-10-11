@@ -1,0 +1,15 @@
+{
+  "name": "claude-mods",
+  "owner": { "name": "Dan Deppert" },
+  "metadata": { "description": "Eight Claude Code mods from the RoboNuggets 9 Mods guide, vendored with their original licenses. The ninth, You Should Know, is built in." },
+  "plugins": [
+    { "name": "savvy-progress", "source": "./plugins/savvy-progress", "description": "Agents panel and progress bar: every subagent, its model, progress and estimated cost. /agents-info." },
+    { "name": "skins", "source": "./plugins/skins", "description": "Restyle tool rows, diffs and tables with themes. /skin <name>." },
+    { "name": "filetree", "source": "./plugins/filetree", "description": "File tree pane that lights up the files Claude touches. Use /tui fullscreen." },
+    { "name": "cache-tax", "source": "./plugins/cache-tax", "description": "Holds a send once when the prompt cache is cold and shows the cost. /keepwarm." },
+    { "name": "blast-radius", "source": "./plugins/blast-radius", "description": "Holds risky shell commands and shows what they would change." },
+    { "name": "reflect-mod", "source": "./plugins/reflect-mod", "description": "Turns your corrections into saved CLAUDE.md rules." },
+    { "name": "terminal-browser", "source": "./plugins/terminal-browser", "description": "A real browser pane in the terminal. Needs the terminal-browser binary. Mac and Linux." },
+    { "name": "replay-theater", "source": "./plugins/replay-theater", "description": "/replay steps through every file edit Claude made, one diff at a time." }
+  ]
+}
